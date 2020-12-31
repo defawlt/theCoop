@@ -1,0 +1,59 @@
+
+
+body {
+    background: #2a2a2a;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 105px auto;
+}
+
+.grid-row-two {
+    grid-row: 2/span 1;
+    grid-column: 2/span 10;
+    width: 1130px;
+    height: 424px;
+}
+
+.img {
+
+}    
+
+.btn {
+    margin: 0;
+    color: #f6f6f6;
+    background: #f25187;
+    font: 600 18px 'Proxima Nova', sans-serif;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+}
+
+.mentor {
+    grid-column: 8/span 1;
+    margin-top: 30px;
+}
+
+.pink {
+    color: #f25187;
+    font: italic bold 48px 'Proxima Nova', sans-serif;
+    line-height: 60px;
+}
+
+.text {
+    font: italic bold 48px 'Proxima Nova', sans-serif;
+    color: white;
+    line-height: 60px;
+}
+
+.reg {
+    font: italic 400 48px 'Proxima Nova', sans-serif;
+}
+
+.small {
+    font: 400 24px 'Proxima Nova', sans-serif;
+    line-height: 54px;
+    margin-bottom: 0;
+}
