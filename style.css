@@ -16,6 +16,9 @@ main {
 a :hover{
     cursor: pointer;
 }
+a :active{
+    cursor: pointer;
+}
 
 .grid-row-two {
     grid-row: 2/span 1;
@@ -42,6 +45,9 @@ a :hover{
 .btn:hover {
     background: #e24378;
     transition: background-color 250ms;
+}
+.btn:active{
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,.25),inset -3px -3px 2px rgba(0,0,0,.25);
 }
 
 .learn{
