@@ -48,6 +48,19 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/resources/favicon.png": {
+		"ft": 32768,
+		"iS": 4700,
+		"oA": 0,
+		"oAP": "/resources/favicon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/resources/ProximaNovaOTFfiles/Proxima Nova Alt Bold.otf": {
 		"cB": 0,
 		"ft": 8192,
