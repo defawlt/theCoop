@@ -214,15 +214,14 @@ button:hover{
     display: flex;
     flex-direction: row;
     color: #aaa;
-    height: auto;
     min-height: 650px;
+    padding-bottom: 40px;
 }
 .slide-contents-grid{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 50px 1fr 1fr 100px;
     column-gap: 10px;
-   
 }
 
 .section-header{
@@ -241,14 +240,16 @@ padding-top: 20px;
     max-width: 310px;
 }
 .main-message{
-    grid-column: 1 / span 3;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
 }
 
 .hero-image{
-    grid-column: 4 / span 3;
-    padding: 20px 0 0 0; 
+display: flex;
+flex-direction: row;
+flex-grow: 1;
 }
-
 
 .slide-2{
     display: flex;
@@ -495,3 +496,16 @@ padding-top: 20px;
 .footer ul li {
     display: flex;
 }
+
+
+
+@media only screen and (max-width: 768px) {
+    .slide-1{
+        flex-direction: column;
+        }
+    .main-message{
+        max-width: 100%;
+        padding: 20px 0 40px 0;
+    }
+
+} 
