@@ -524,6 +524,19 @@ button:hover{
 
 
 @media only screen and (max-width: 768px) {
+    header {
+        color: #00C9B1;
+        margin: 20px 0;
+    }
+
+    nav .slide-container{
+        padding: 0 10px;
+    }
+    
+    .slide-container {
+        padding: 0 20px;
+    }
+    
     .flex-wrapper{
         flex-direction: column;
         }
@@ -546,13 +559,17 @@ button:hover{
         display: grid;
         grid-column: 1/ span 6;
         grid-row: 2/span 1;
-        padding: 40px 0;
+        padding: 20px 0;
         margin: 0;
 
     }
     .slide-2 .interviewee-reply{
         grid-column: 1/ span 6;
         grid-row: 3/span 1;
+    }
+
+    .interviewee-reply {
+        padding-left: 10px;
     }
     .slide-2 .job-seeker{
         grid-column: 1/ span 6;
@@ -576,6 +593,13 @@ button:hover{
     .statement h5{
         text-align: center;
     }
+    .slide-3{
+        padding: 10px 0;
+    }
+
+    .page-inset{
+        padding-bottom: 40px;
+    }
 
     .slide-3 .callout {
         display: flex;
@@ -585,7 +609,13 @@ button:hover{
         background-repeat: no-repeat;
     }
     .slide-3 .section-header {
-        margin: 0 0 0px 40px;
+        margin: 0 0 0px 20px;
+        padding: 20px 0 10px 0;
+    }
+    .slide-3 .quote {
+        color: #ffffff;
+        max-width: 90%;
+        margin-left: 20px;
     }
     h4{
         font-size: 36px;
