@@ -281,7 +281,7 @@ button:hover{
 }
 
 .slide-2 .section-header{
-    color: #fff;
+    color: #aaa;
 
 }
 .slide-2 .jon-quote{
@@ -289,8 +289,9 @@ button:hover{
     flex-direction: row;
     min-height: 100px;
     padding: 40px 60px;
-    border-top: dotted 3px #F25187;
-    border-bottom: dotted 3px #F25187;
+    border-top: dotted 2px #562636;
+    border-bottom: dotted 2px #562636;
+    margin: 40px 0;
 }
 
 .quote-mark{
@@ -352,7 +353,7 @@ color: #F25187;
     color: #fff;
     text-align: right;
     margin-top: 100px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 .slide-2 h4{
     font-size: 18px;
@@ -373,7 +374,7 @@ color: #F25187;
 .slide-3{
     display: flex;
     flex-direction: row;
-    min-height:550px;
+    min-height:650px;
     padding: 20px 60px; 
 }
 
@@ -387,6 +388,8 @@ color: #F25187;
     height: 300px;
     background-image: url(./resources/black-red.svg);
     background-repeat: no-repeat;
+    margin-top: 10px;
+padding-top: 20px;
 }
 .slide-3 .section-header{
     display: flex;
@@ -606,7 +609,6 @@ color: #F25187;
         width: 100%;
         margin-left: 10px;
     }
-
 
     .statement{
         grid-column: 1/ span 6;
