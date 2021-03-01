@@ -208,6 +208,7 @@ button:hover{
     color: #aaa;
     min-height: 650px;
     padding-bottom: 40px;
+    margin-top: 20px;
 }
 
 .slide-container{
@@ -250,16 +251,6 @@ button:hover{
     row-gap: 10px;
 }
 
-/* .col-1{
-    grid-column: 1/ span 1;
-    grid-row: 1/ span 6;
-    background: rgb(58, 141, 218);
-}
-.col-2{
-    grid-column: 2/ span 1;
-    grid-row: 1/ span 6;
-    background: rgb(58, 141, 218);
-} */
 
 .section-header{
     display: flex;
@@ -277,7 +268,6 @@ button:hover{
 .flex-row{
     display:flex;
     flex-direction: row;
-    /* background: rgb(174, 60, 255); */
 }
 
 .flex-column{
@@ -287,30 +277,85 @@ button:hover{
 }
 
 .slide-2{
-    background: #F25187;
     color:#562636;
 }
 
-.slide-2 .page-break{
-    grid-column: 4/ span 3;
-    grid-row: 4/ span 1;
-    justify-self: center;
-    align-self: end;
+.slide-2 .section-header{
+    color: #fff;
+
+}
+.slide-2 .jon-quote{
+    display: flex;
+    flex-direction: row;
+    min-height: 100px;
+    padding: 40px 60px;
+    border-top: dotted 3px #F25187;
+    border-bottom: dotted 3px #F25187;
 }
 
-.slide-2 .hiring-manager{
-    grid-column: 4 / span 3;
-    grid-row: 1/span 3;
-    padding: 30px;
+.quote-mark{
+    display: flex;
+    flex-direction: column;
+    min-width: 60px;
+    min-height: 100%;
+
+}
+.quote-body{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin: 0 10px;
+}
+.quote-body h1{
+font-size: 36px;
+line-height: 140%;
+font-weight: 700;
+color: #F25187;
 }
 
-.slide-2 .job-seeker{
-    grid-column: 1 / span 4;
-    grid-row: 3/span 3;
-    margin-top: 40px;
-    align-self: end;
-    margin-left: -80px;
-    padding: 0px 140px 0 0;
+
+.quote-icon-group{
+    display: flex;
+    flex-direction: column;
+    color: #F25187;
+    min-width: 160px;
+    font-size: 16px;
+    text-align: center;
+
+}
+.quote-icon-group h2{
+    font-weight: 700;
+    margin: 0;
+    margin-top: 10px;
+}
+.quote-icon-group p{
+    font-weight: 400;
+    font-style: italic;
+    }
+
+.slide-2 .hm-quote{
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    width: 50%;
+    margin: 40px 0;
+    color: #fff;
+    align-items: start;
+}
+
+.slide-2 .candidate-quote{
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    width: 50%;
+    margin: 0;
+    color: #fff;
+    text-align: right;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.slide-2 h4{
+    font-size: 18px;
 }
 
 .quote{
@@ -318,14 +363,6 @@ button:hover{
     grid-row: 1/span 3;
 }
 
-.interviewee-reply{
-    grid-column: 3/ span 4;
-    grid-row: 3/ span 2;
-    color: #ffffff;
-    text-align: left;
-    padding-top: 20px;
-    padding-left: 40px;
-}
 
 .statement{
     grid-column: 4/ span 3;
@@ -552,38 +589,24 @@ button:hover{
         grid-column: 1/ span 6;
         grid-row: 1/span 1;
         padding-top: 20px;
-        marging: 0;
+        margin: 0;
     }
     
-    .slide-2 .hiring-manager{
-        display: grid;
-        grid-column: 1/ span 6;
-        grid-row: 2/span 1;
-        padding: 20px 0;
-        margin: 0;
+    .slide-2 .jon-quote{
+        display: flex;
+        flex-direction: row;
+        min-height: 100px;
+    }
+    .slide-2 .hm-quote{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .slide-2 .candidate-quote{
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 10px;
+    }
 
-    }
-    .slide-2 .interviewee-reply{
-        grid-column: 1/ span 6;
-        grid-row: 3/span 1;
-    }
-
-    .interviewee-reply {
-        padding-left: 10px;
-    }
-    .slide-2 .job-seeker{
-        grid-column: 1/ span 6;
-        grid-row: 4/span 1;
-        margin: 0 ;
-        padding: 40px 0;
-    }
-    .slide-2 .page-break{
-        grid-column: 1/ span 6;
-        grid-row: 5/span 1;
-        align-self: start;
-        margin-top: 40px;
-        padding-bottom: 40px;
-    }
 
     .statement{
         grid-column: 1/ span 6;
