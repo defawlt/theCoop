@@ -191,8 +191,14 @@ button:hover{
     background: #00C9B1;
 }
 .join-us:hover{
-    background-color: #00A18D;
-    transition: background-color 250ms;
+    background-color: #00EBCE;
+    color: #009785;
+    transition: color 250ms, background-color 150ms;
+}
+.join-us:active{
+    background-color: #009785;
+    color: #fff;
+    transition: color 250ms, background-color 150ms;
 }
 
 .learn-more{
@@ -200,8 +206,12 @@ button:hover{
 }
 
 .learn-more:hover{
+    background: #FA8BB0;
+    transition: background-color 150ms;
+}
+.learn-more:active{
     background: #562636;
-    transition: background-color 250ms;
+    transition: background-color 150ms;
 }
 
 .slide-1 {
