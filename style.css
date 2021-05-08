@@ -216,13 +216,13 @@ button:hover{
 
 .slide-1 {
     color: #aaa;
-    min-height: 650px;
+    min-height: 600px;
     padding-bottom: 40px;
     margin-top: 20px;
 }
 
 .slide-container{
-    max-width: 1200px;
+    max-width: 1152px;
     margin: 0 auto;
     padding: 0 40px;
     /* background: indigo; */
@@ -276,15 +276,15 @@ button:hover{
 
 }
 
-.flex-row{
+.quote-bubbles{
     display:flex;
     flex-direction: row;
+    border-top: dotted 2px #562636;
 }
 
 .flex-column{
     display:flex;
     flex-direction: column;
-    /* background: rgb(60, 2, 103); */
 }
 
 .slide-2{
@@ -300,9 +300,9 @@ button:hover{
     flex-direction: row;
     min-height: 100px;
     padding: 60px 40px;
-    border-top: dotted 2px #562636;
     border-bottom: dotted 2px #562636;
-    margin: 40px 0;
+    margin-bottom: 40px;
+
 }
 
 .quote-mark{
@@ -317,6 +317,7 @@ button:hover{
     flex-direction: column;
     color: #fff;
     margin: 0 10px;
+    order: 1;
 }
 .quote-body h1{
 font-size: 36px;
@@ -333,6 +334,10 @@ color: #F25187;
     min-width: 160px;
     font-size: 16px;
     text-align: center;
+    align-items: center;
+    order: 2;
+    padding-top: 20px;
+    
 }
 .quote-icon-group h2{
     font-weight: 700;
@@ -351,7 +356,7 @@ color: #F25187;
     flex-direction: column;
     min-height: 200px;
     width: 50%;
-    margin: 40px 0;
+    margin-top: 40px;
     color: #fff;
     align-items: start;
 }
@@ -387,6 +392,7 @@ color: #F25187;
     flex-direction: row;
     min-height:650px;
     padding: 20px 60px; 
+    background-color: #fff;
 }
 
 
@@ -604,6 +610,20 @@ padding-top: 20px;
         padding-top: 20px;
         margin: 0;
     }
+
+    .quote-block{
+        display: flex;
+        flex-direction: column-reverse;
+        min-height: 100px;
+        border-bottom: dotted 2px #562636;
+        align-items: center;
+        padding-top: 0;
+    }
+
+    .quote-bubbles{
+        flex-direction: column;
+
+    }
     
     .slide-2 .hm-quote{
         width: 100%;
@@ -613,6 +633,8 @@ padding-top: 20px;
         flex-wrap: wrap;
         width: 100%;
         margin-left: 10px;
+        margin-top: 60px;
+        margin-bottom: 0;
     }
     
     .statement{
